@@ -11,7 +11,7 @@ int main(){
   float tong2=tong1/60;
   float ap1= tong2/mile;
   int phut=(int)ap1;
-  int giay=(int)(ap1-phut)*60;
+  int giay=(int)((ap1-phut)*60);
   cout<<phut<<" m "<<giay<<" s "<<endl;
   float tong3=tong2/60;
   float v=mile/tong3;
